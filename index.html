@@ -1,83 +1,361 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="img-css/bootstrap.min.css">
-</head>
-<body style="background-color: rgba(200, 223, 238, 0.584);">
-    
+    <!-- font awesome kits -->
+    <script
+      src="https://kit.fontawesome.com/5b0f2192ee.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- bootstrap kits -->
+    <link rel="stylesheet" href="img-css/bootstrap.min.css" />
+  </head>
+  <body style="background-color: rgba(200, 223, 238, 0.584)">
     <header>
-        <nav class="navbar navbar-expand-lg  navbar navbar-dark bg-primary "
-        style="background-color: #0e96f7;">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="images/icons/logo.png" alt="Bootstrap" width="41" height="51">
-                <span class="ms-2">idea</span>
-              </a>
-          
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active " href="#">about</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#">Works</a>
-                  </li>
-                
-                </ul>
-                <a class="navbar-brand" href="#">
-                    <img src="images/icons/profile.png" alt="Bootstrap" width="41" height="41">
-                  </a>
-                
-              </div>
-            </div>
-          </nav>
+      <nav
+        class="navbar navbar-expand-lg navbar navbar-dark bg-primary"
+        style="background-color: #0e96f7"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/icons/logo.png"
+              alt="Bootstrap"
+              width="41"
+              height="51"
+            />
+            <span class="ms-2">idea</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Works</a>
+              </li>
+            </ul>
+            <a class="navbar-brand" href="#">
+              <img
+                src="images/icons/profile.png"
+                alt="Bootstrap"
+                width="41"
+                height="41"
+              />
+            </a>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-        <section class="container bg-white rounded ">
-            <h4 class="text-primary my-3">Top-Player</h4>
-            <div class="row  gy-4 pb-3">
-                <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center ">
-                    <img width="56px" src="images/players/player-1.png" alt="">
-                    <h4 class="ms-3">Shakibul</h4>
-                </div>
-                <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
-                    <img width="56px" src="images/players/player-1.png" alt="">
-                    <h4 class="ms-3">Shakibul</h4>
-                </div>
-                <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
-                    <img width="56px" src="images/players/player-1.png" alt="">
-                    <h4 class="ms-3">Shakibul</h4>
-                </div>
-                <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
-                    <img width="56px" src="images/players/player-1.png" alt="">
-                    <h4 class="ms-3">Shakibul</h4>
-                </div>
-                <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
-                    <img width="56px" src="images/players/player-1.png" alt="">
-                    <h4 class="ms-3">Shakibul</h4>
-                </div>
-                <div class="col col-12  col-lg-4 col-md-6 d-flex align-items-center">
-                    <img width="56px" src="images/players/player-1.png" alt="">
-                    <h4 class="ms-3">Shakibul</h4>
-                </div>
-            </div>
-            <hr>
-        </section>
+      <section class="container bg-white rounded">
+        <h4 class="text-primary my-3">Top-Player</h4>
+        <div class="row gy-4 pb-3">
+          <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
+            <img width="56px" src="images/players/player-1.png" alt="" />
+            <h4 class="ms-3">Shakibul</h4>
+          </div>
+          <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
+            <img width="56px" src="images/players/player-1.png" alt="" />
+            <h4 class="ms-3">Shakibul</h4>
+          </div>
+          <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
+            <img width="56px" src="images/players/player-1.png" alt="" />
+            <h4 class="ms-3">Shakibul</h4>
+          </div>
+          <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
+            <img width="56px" src="images/players/player-1.png" alt="" />
+            <h4 class="ms-3">Shakibul</h4>
+          </div>
+          <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
+            <img width="56px" src="images/players/player-1.png" alt="" />
+            <h4 class="ms-3">Shakibul</h4>
+          </div>
+          <div class="col col-12 col-lg-4 col-md-6 d-flex align-items-center">
+            <img width="56px" src="images/players/player-1.png" alt="" />
+            <h4 class="ms-3">Shakibul</h4>
+          </div>
+        </div>
+        <hr />
+        <h4 class="text-primary">top-blog</h4>
 
+        <div class="row gy-5 pb-4">
+          <div class="col d-flex col-lg-4 col-md-6 col-12">
+            <div>
+              <img style="width: 125px" src="images/blogs/blog-1.png" alt="" />
+            </div>
+            <div class="ms-4">
+              <h5 style="width: 163px">13 of My Favorite UI/UX Goodies</h5>
+              <span> Danny Sapio</span>
+            </div>
+          </div>
+          <div class="col d-flex col-lg-4 col-md-6 col-12">
+            <div>
+              <img style="width: 125px" src="images/blogs/blog-1.png" alt="" />
+            </div>
+            <div class="ms-4">
+              <h5 style="width: 163px">13 of My Favorite UI/UX Goodies</h5>
+              <span> Danny Sapio</span>
+            </div>
+          </div>
+          <div class="col d-flex col-lg-4 col-md-6 col-12">
+            <div>
+              <img style="width: 125px" src="images/blogs/blog-1.png" alt="" />
+            </div>
+            <div class="ms-4">
+              <h5 style="width: 163px">13 of My Favorite UI/UX Goodies</h5>
+              <span> Danny Sapio</span>
+            </div>
+          </div>
+          <div class="col d-flex col-lg-4 col-md-6 col-12">
+            <div>
+              <img style="width: 125px" src="images/blogs/blog-1.png" alt="" />
+            </div>
+            <div class="ms-4">
+              <h5 style="width: 163px">13 of My Favorite UI/UX Goodies</h5>
+              <span> Danny Sapio</span>
+            </div>
+          </div>
+          <div class="col d-flex col-lg-4 col-md-6 col-12">
+            <div>
+              <img style="width: 125px" src="images/blogs/blog-1.png" alt="" />
+            </div>
+            <div class="ms-4">
+              <h5 style="width: 163px">13 of My Favorite UI/UX Goodies</h5>
+              <span> Danny Sapio</span>
+            </div>
+          </div>
+          <div class="col d-flex col-lg-4 col-md-6 col-12">
+            <div>
+              <img style="width: 125px" src="images/blogs/blog-1.png" alt="" />
+            </div>
+            <div class="ms-4">
+              <h5 style="width: 163px">13 of My Favorite UI/UX Goodies</h5>
+              <span> Danny Sapio</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container bg-white rounded mt-4">
+        <h4 class="text-primary pt-4 my-3">letest-cours</h4>
+        <div class="row gy-4 d-flex ">
+          <div class="col col-12 col-md-6 col-lg-4 ">
+            <div>
+              <img
+                style="width: 224px"
+                src="images/courses/course-1.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div>
+                <h4 style="font-size:25px;">React - The Complete</h4>
+              <h4>Guide 2020</h4>
+              <p>Reed Krakoff.</p>
+              </div>
+              <div class="d-flex align-items-center " style="margin-top: -20px;">
+                <div class="" style="font-size: 8px;">
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                </div>
+                <div class="ms-2
+                ">4.0</div>
+                <div class="d-flex bg-dark-subtle rounded-pill p-1 ">
+                  <span class="ms-2"><i class="fa-solid fa-clock text-danger "></i></span>
+                  <span class="ms-2 text-danger">01:30hr</span>
+                
+                </div>
+                </div>
+              </div>
+            </div>
+          <div class="col col-12 col-md-6 col-lg-4 ">
+            <div>
+              <img
+                style="width: 224px"
+                src="images/courses/course-1.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div>
+                <h4 style="font-size:25px;">React - The Complete</h4>
+              <h4>Guide 2020</h4>
+              <p>Reed Krakoff.</p>
+              </div>
+              <div class="d-flex align-items-center " style="margin-top: -20px;">
+                <div class="" style="font-size: 8px;">
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                </div>
+                <div class="ms-2
+                ">4.0</div>
+                <div class="d-flex bg-dark-subtle rounded-pill p-1 ">
+                  <span class="ms-2"><i class="fa-solid fa-clock text-danger "></i></span>
+                  <span class="ms-2 text-danger">01:30hr</span>
+                
+                </div>
+                </div>
+              </div>
+            </div>
+          <div class="col col-12 col-md-6 col-lg-4 ">
+            <div>
+              <img
+                style="width: 224px"
+                src="images/courses/course-1.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div>
+                <h4 style="font-size:25px;">React - The Complete</h4>
+              <h4>Guide 2020</h4>
+              <p>Reed Krakoff.</p>
+              </div>
+              <div class="d-flex align-items-center " style="margin-top: -20px;">
+                <div class="" style="font-size: 8px;">
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                </div>
+                <div class="ms-2
+                ">4.0</div>
+                <div class="d-flex bg-dark-subtle rounded-pill p-1 ">
+                  <span class="ms-2"><i class="fa-solid fa-clock text-danger "></i></span>
+                  <span class="ms-2 text-danger">01:30hr</span>
+                
+                </div>
+                </div>
+              </div>
+            </div>
+          <div class="col col-12 col-md-6 col-lg-4 ">
+            <div>
+              <img
+                style="width: 224px"
+                src="images/courses/course-1.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div>
+                <h4 style="font-size:25px;">React - The Complete</h4>
+              <h4>Guide 2020</h4>
+              <p>Reed Krakoff.</p>
+              </div>
+              <div class="d-flex align-items-center " style="margin-top: -20px;">
+                <div class="" style="font-size: 8px;">
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                </div>
+                <div class="ms-2
+                ">4.0</div>
+                <div class="d-flex bg-dark-subtle rounded-pill p-1 ">
+                  <span class="ms-2"><i class="fa-solid fa-clock text-danger "></i></span>
+                  <span class="ms-2 text-danger">01:30hr</span>
+                
+                </div>
+                </div>
+              </div>
+            </div>
+          <div class="col col-12 col-md-6 col-lg-4 ">
+            <div>
+              <img
+                style="width: 224px"
+                src="images/courses/course-1.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div>
+                <h4 style="font-size:25px;">React - The Complete</h4>
+              <h4>Guide 2020</h4>
+              <p>Reed Krakoff.</p>
+              </div>
+              <div class="d-flex align-items-center " style="margin-top: -20px;">
+                <div class="" style="font-size: 8px;">
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                </div>
+                <div class="ms-2
+                ">4.0</div>
+                <div class="d-flex bg-dark-subtle rounded-pill p-1 ">
+                  <span class="ms-2"><i class="fa-solid fa-clock text-danger "></i></span>
+                  <span class="ms-2 text-danger">01:30hr</span>
+                
+                </div>
+                </div>
+              </div>
+            </div>
+          <div class="col col-12 col-md-6 col-lg-4 ">
+            <div>
+              <img
+                style="width: 224px"
+                src="images/courses/course-1.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <div>
+                <h4 style="font-size:25px;">React - The Complete</h4>
+              <h4>Guide 2020</h4>
+              <p>Reed Krakoff.</p>
+              </div>
+              <div class="d-flex align-items-center " style="margin-top: -20px;">
+                <div class="" style="font-size: 8px;">
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                  <i class="fa-solid fa-star filled text-danger"></i>
+                </div>
+                <div class="ms-2
+                ">4.0</div>
+                <div class="d-flex bg-dark-subtle rounded-pill p-1 ">
+                  <span class="ms-2"><i class="fa-solid fa-clock text-danger "></i></span>
+                  <span class="ms-2 text-danger">01:30hr</span>
+                
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer>
-
-    </footer>
+    <footer></footer>
     <script src="img-js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
